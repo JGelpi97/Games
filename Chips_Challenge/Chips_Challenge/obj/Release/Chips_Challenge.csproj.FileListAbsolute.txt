@@ -1,0 +1,24 @@
+F:\C#\Chips_Challenge\Chips_Challenge\bin\Release\Chips_Challenge.exe
+F:\C#\Chips_Challenge\Chips_Challenge\bin\Release\Chips_Challenge.pdb
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Release\ResolveAssemblyReference.cache
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.Form1.resources
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.Properties.Resources.resources
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.csproj.GenerateResource.Cache
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.exe
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.pdb
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Release\Chips_Challenge.exe
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Release\Chips_Challenge.pdb
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\ResolveAssemblyReference.cache
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.Form1.resources
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.Properties.Resources.resources
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.csproj.GenerateResource.Cache
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.exe
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.pdb
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Release\Chips_Challenge.exe
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Release\Chips_Challenge.pdb
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\ResolveAssemblyReference.cache
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.Form1.resources
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.Properties.Resources.resources
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.csproj.GenerateResource.Cache
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.exe
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Release\Chips_Challenge.pdb

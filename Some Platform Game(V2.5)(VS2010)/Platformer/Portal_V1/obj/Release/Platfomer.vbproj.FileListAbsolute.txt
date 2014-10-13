@@ -1,0 +1,11 @@
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\bin\Release\Platformer.exe
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\bin\Release\Platformer.pdb
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\bin\Release\Platformer.xml
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\obj\Release\ResolveAssemblyReference.cache
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\obj\Release\Platfomer.Form1.resources
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\obj\Release\Platfomer.Resources.resources
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\obj\Release\Platfomer.SplashScreen1.resources
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\obj\Release\Platfomer.vbproj.GenerateResource.Cache
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\obj\Release\Platformer.exe
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\obj\Release\Platformer.xml
+E:\Some Platform Game(V2.5)\Platformer\Portal_V1\obj\Release\Platformer.pdb

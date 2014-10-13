@@ -1,0 +1,53 @@
+FL - Floor
+WW - wall
+
+PQ - Random Force Floor
+PU, PR, PL, PD - Force Floors (Push up, Push right, ect..)
+
+
+BO - Bomb
+TH - theif
+CH - chip
+
+DO - door
+WN - win
+
+BR - Real blue wall, cant pass through
+BF - Fake blue wall, can pass
+RW - Recessed wall
+
+IC - ice
+NE - North east ice - top right
+NW - north west - top left
+SE - bottom right
+SW - bottom left
+
+GR - Gravel
+MU - mud
+DT - dirt
+HP - help, hint
+WA - water
+FI - fire
+
+IW - invisible wall
+HW - hidden wall
+
+TB - toggle button, green
+TW - toggle wall
+TF - toggle floor
+
+DG, DR, DY, DB - door green, red, yellow, blue
+KG, KR, KY, KB - keys
+
+FB - fire boots
+FP - flippers
+SB - suction boots
+IS - ice skates
+
+TE - teeth
+BV, BH - ball horizontal, veritcal
+FE - fireball
+BL - blob
+WK - walker
+
+

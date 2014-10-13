@@ -1,0 +1,12 @@
+E:\C#\SnakeFu\SnakeFu\bin\Debug\SnakeFu.exe
+E:\C#\SnakeFu\SnakeFu\bin\Debug\SnakeFu.pdb
+E:\C#\SnakeFu\SnakeFu\obj\Debug\ResolveAssemblyReference.cache
+E:\C#\SnakeFu\SnakeFu\obj\Debug\SnakeFu.Properties.Resources.resources
+E:\C#\SnakeFu\SnakeFu\obj\Debug\SnakeFu.csproj.GenerateResource.Cache
+E:\C#\SnakeFu\SnakeFu\obj\Debug\SnakeFu.exe
+E:\C#\SnakeFu\SnakeFu\obj\Debug\SnakeFu.pdb
+E:\C#\SnakeFu\SnakeFu\obj\Debug\SnakeFu.Form1.resources
+F:\C#\SnakeFu\SnakeFu\obj\Debug\SnakeFu.exe
+F:\C#\SnakeFu\SnakeFu\obj\Debug\SnakeFu.pdb
+G:\C#\SnakeFu\SnakeFu\obj\Debug\SnakeFu.exe
+G:\C#\SnakeFu\SnakeFu\obj\Debug\SnakeFu.pdb

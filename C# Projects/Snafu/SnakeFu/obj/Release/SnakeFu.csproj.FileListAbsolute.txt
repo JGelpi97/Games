@@ -1,0 +1,8 @@
+E:\C#\SnakeFu\SnakeFu\bin\Release\SnakeFu.exe
+E:\C#\SnakeFu\SnakeFu\bin\Release\SnakeFu.pdb
+E:\C#\SnakeFu\SnakeFu\obj\Release\ResolveAssemblyReference.cache
+E:\C#\SnakeFu\SnakeFu\obj\Release\SnakeFu.Properties.Resources.resources
+E:\C#\SnakeFu\SnakeFu\obj\Release\SnakeFu.csproj.GenerateResource.Cache
+E:\C#\SnakeFu\SnakeFu\obj\Release\SnakeFu.exe
+E:\C#\SnakeFu\SnakeFu\obj\Release\SnakeFu.pdb
+E:\C#\SnakeFu\SnakeFu\obj\Release\SnakeFu.Form1.resources

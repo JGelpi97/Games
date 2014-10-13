@@ -1,0 +1,13 @@
+E:\Portal\Portal_V1\Portal_V1\bin\Debug\Portal_V1.exe
+E:\Portal\Portal_V1\Portal_V1\bin\Debug\Portal_V1.pdb
+E:\Portal\Portal_V1\Portal_V1\bin\Debug\Portal_V1.xml
+E:\Portal\Portal_V1\Portal_V1\obj\Debug\ResolveAssemblyReference.cache
+E:\Portal\Portal_V1\Portal_V1\obj\Debug\Portal_V1.Form1.resources
+E:\Portal\Portal_V1\Portal_V1\obj\Debug\Portal_V1.Resources.resources
+E:\Portal\Portal_V1\Portal_V1\obj\Debug\Portal_V1.vbproj.GenerateResource.Cache
+E:\Portal\Portal_V1\Portal_V1\obj\Debug\Portal_V1.exe
+E:\Portal\Portal_V1\Portal_V1\obj\Debug\Portal_V1.xml
+E:\Portal\Portal_V1\Portal_V1\obj\Debug\Portal_V1.pdb
+E:\Some Platform Game\Portal_V1\Portal_V1\obj\Debug\Portal_V1.exe
+E:\Some Platform Game\Portal_V1\Portal_V1\obj\Debug\Portal_V1.xml
+E:\Some Platform Game\Portal_V1\Portal_V1\obj\Debug\Portal_V1.pdb

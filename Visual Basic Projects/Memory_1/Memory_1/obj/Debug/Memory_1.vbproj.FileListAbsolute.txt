@@ -1,0 +1,46 @@
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\bin\Debug\Memory_1.exe
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\bin\Debug\Memory_1.pdb
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\bin\Debug\Memory_1.xml
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\obj\Debug\Memory_1.Form1.resources
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\obj\Debug\Memory_1.Resources.resources
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\obj\Debug\Memory_1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\obj\Debug\Memory_1.exe
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\obj\Debug\Memory_1.xml
+C:\Documents and Settings\97753\Local Settings\Application Data\Temporary Projects\Memory_1\obj\Debug\Memory_1.pdb
+E:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.exe
+E:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.xml
+E:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.pdb
+E:\VB\Memory_1\Memory_1\bin\Debug\Memory_1.exe
+E:\VB\Memory_1\Memory_1\bin\Debug\Memory_1.pdb
+E:\VB\Memory_1\Memory_1\bin\Debug\Memory_1.xml
+E:\VB\Memory_1\Memory_1\obj\Debug\ResolveAssemblyReference.cache
+E:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.frmMemory.resources
+E:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.Resources.resources
+E:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.vbproj.GenerateResource.Cache
+K:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.exe
+K:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.xml
+K:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.pdb
+K:\VB\Memory_1\Memory_1\bin\Debug\Memory_1.exe
+K:\VB\Memory_1\Memory_1\bin\Debug\Memory_1.pdb
+K:\VB\Memory_1\Memory_1\bin\Debug\Memory_1.xml
+K:\VB\Memory_1\Memory_1\obj\Debug\ResolveAssemblyReference.cache
+K:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.frmMemory.resources
+K:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.Resources.resources
+K:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.vbproj.GenerateResource.Cache
+K:\VB\Memory_1\Memory_1\obj\Debug\Interop.WMPLib.dll
+K:\VB\Memory_1\Memory_1\obj\Debug\AxInterop.WMPLib.dll
+K:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.vbproj.ResolveComReference.cache
+K:\VB\Memory_1\Memory_1\bin\Debug\Interop.WMPLib.dll
+K:\VB\Memory_1\Memory_1\bin\Debug\AxInterop.WMPLib.dll
+E:\VB\Memory_1\Memory_1\obj\Debug\Interop.WMPLib.dll
+E:\VB\Memory_1\Memory_1\obj\Debug\AxInterop.WMPLib.dll
+E:\VB\Memory_1\Memory_1\obj\Debug\Memory_1.vbproj.ResolveComReference.cache
+E:\VB\Memory_1\Memory_1\bin\Debug\Interop.WMPLib.dll
+E:\VB\Memory_1\Memory_1\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Owner\Desktop\Flash Drive\Memory_1\Memory_1\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Owner\Desktop\Flash Drive\Memory_1\Memory_1\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Owner\Desktop\Flash Drive\Memory_1\Memory_1\obj\Debug\Memory_1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Owner\Desktop\Flash Drive\Memory_1\Memory_1\obj\Debug\Memory_1.exe
+C:\Documents and Settings\Owner\Desktop\Flash Drive\Memory_1\Memory_1\obj\Debug\Memory_1.xml
+C:\Documents and Settings\Owner\Desktop\Flash Drive\Memory_1\Memory_1\obj\Debug\Memory_1.pdb

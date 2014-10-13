@@ -1,0 +1,8 @@
+E:\C#\Captor\Captor\bin\Release\Captor.exe
+E:\C#\Captor\Captor\bin\Release\Captor.pdb
+E:\C#\Captor\Captor\obj\Release\ResolveAssemblyReference.cache
+E:\C#\Captor\Captor\obj\Release\Captor.Form1.resources
+E:\C#\Captor\Captor\obj\Release\Captor.Properties.Resources.resources
+E:\C#\Captor\Captor\obj\Release\Captor.csproj.GenerateResource.Cache
+E:\C#\Captor\Captor\obj\Release\Captor.exe
+E:\C#\Captor\Captor\obj\Release\Captor.pdb

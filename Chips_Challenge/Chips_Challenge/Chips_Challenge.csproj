@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{998AC18F-4BA0-4898-9FFE-2ED35E4CC3C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chips_Challenge</RootNamespace>
+    <AssemblyName>Chips_Challenge</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ball.cs" />
+    <Compile Include="Blob.cs" />
+    <Compile Include="Fireball.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guy.cs" />
+    <Compile Include="HUD.cs" />
+    <Compile Include="LevelSelector.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Teeth.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Tile.cs" />
+    <Compile Include="Walker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ChipTile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\DoorTile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\FloorTile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\WallTile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\WinTile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\DoorBlue.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\DoorGreen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\DoorRed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\DoorYellow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\FireBoot.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\FireTile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Flipper.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\GuyDeadFire.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\GuyDeadWater.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\GuyLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\GuyNormal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\GuyRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\GuyUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\IceSkate.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\IceTile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\KeyBlue.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\KeyGreen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\KeyRed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\KeyYellow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\SuctionBoots.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\WaterTile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\HUD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\MonsterNormal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\MonsterRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\MonsterLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\MonsterUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\PushUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\PushDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\PushLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\PushRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ball.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\fireball.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ToggleWall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Help.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ToggleButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ToggleFloor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ChipWaterUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ChipWaterLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ChipWaterNormal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ChipWaterRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_4.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr0.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr2.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr3.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr4.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr8.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Tmr9.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\TmrYellow.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Blob.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_5.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Gravel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Hud_Help.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_6.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_7.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\DirtInWater.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Dirt.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\WalkerRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\WalkerLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Theif.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\SWice.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\NEice.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\NWice.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\SEice.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\RecessedWall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\BlueWall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\LevelIntro.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\backgroundNew.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_8.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_9.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\ForceFloorRandom.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures\Bomb.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Levels\Level_10.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level_11.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level_12.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level_13.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

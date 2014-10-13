@@ -1,0 +1,40 @@
+F:\C#\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.exe
+F:\C#\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.pdb
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Properties.Resources.resources
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.csproj.GenerateResource.Cache
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.exe
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.pdb
+E:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.exe
+E:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.pdb
+E:\C#\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.exe
+E:\C#\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.pdb
+E:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\ResolveAssemblyReference.cache
+E:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Properties.Resources.resources
+E:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.csproj.GenerateResource.Cache
+F:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Form1.resources
+E:\C#\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Form1.resources
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.exe
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.pdb
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.exe
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.pdb
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\ResolveAssemblyReference.cache
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Form1.resources
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Properties.Resources.resources
+E:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.csproj.GenerateResource.Cache
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.exe
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.pdb
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.exe
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.pdb
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\ResolveAssemblyReference.cache
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Form1.resources
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Properties.Resources.resources
+F:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.csproj.GenerateResource.Cache
+G:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.exe
+G:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.pdb
+G:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.exe
+G:\Chips Challenge\Chips_Challenge\Chips_Challenge\bin\Debug\Chips_Challenge.pdb
+G:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\ResolveAssemblyReference.cache
+G:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Form1.resources
+G:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.Properties.Resources.resources
+G:\Chips Challenge\Chips_Challenge\Chips_Challenge\obj\Debug\Chips_Challenge.csproj.GenerateResource.Cache

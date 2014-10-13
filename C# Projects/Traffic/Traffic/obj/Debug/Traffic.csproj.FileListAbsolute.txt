@@ -1,0 +1,9 @@
+E:\C#\Traffic\Traffic\bin\Debug\Traffic.exe
+E:\C#\Traffic\Traffic\bin\Debug\Traffic.pdb
+E:\C#\Traffic\Traffic\obj\Debug\ResolveAssemblyReference.cache
+E:\C#\Traffic\Traffic\obj\Debug\Traffic.Properties.Resources.resources
+E:\C#\Traffic\Traffic\obj\Debug\Traffic.csproj.GenerateResource.Cache
+E:\C#\Traffic\Traffic\obj\Debug\Traffic.exe
+E:\C#\Traffic\Traffic\obj\Debug\Traffic.pdb
+F:\C#\Traffic\Traffic\obj\Debug\Traffic.exe
+F:\C#\Traffic\Traffic\obj\Debug\Traffic.pdb

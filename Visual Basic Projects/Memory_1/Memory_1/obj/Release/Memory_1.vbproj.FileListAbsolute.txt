@@ -1,0 +1,10 @@
+E:\VB\Memory_1\Memory_1\bin\Release\Memory_1.exe
+E:\VB\Memory_1\Memory_1\bin\Release\Memory_1.pdb
+E:\VB\Memory_1\Memory_1\bin\Release\Memory_1.xml
+E:\VB\Memory_1\Memory_1\obj\Release\ResolveAssemblyReference.cache
+E:\VB\Memory_1\Memory_1\obj\Release\Memory_1.frmMemory.resources
+E:\VB\Memory_1\Memory_1\obj\Release\Memory_1.Resources.resources
+E:\VB\Memory_1\Memory_1\obj\Release\Memory_1.vbproj.GenerateResource.Cache
+E:\VB\Memory_1\Memory_1\obj\Release\Memory_1.exe
+E:\VB\Memory_1\Memory_1\obj\Release\Memory_1.xml
+E:\VB\Memory_1\Memory_1\obj\Release\Memory_1.pdb

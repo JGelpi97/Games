@@ -1,0 +1,16 @@
+E:\C#\Santa\Santa\bin\Debug\Santa.exe
+E:\C#\Santa\Santa\bin\Debug\Santa.pdb
+E:\C#\Santa\Santa\obj\Debug\ResolveAssemblyReference.cache
+E:\C#\Santa\Santa\obj\Debug\Santa.Properties.Resources.resources
+E:\C#\Santa\Santa\obj\Debug\Santa.csproj.GenerateResource.Cache
+E:\C#\Santa\Santa\obj\Debug\Santa.exe
+E:\C#\Santa\Santa\obj\Debug\Santa.pdb
+E:\C#\Santa\Santa\obj\Debug\Santa.Form1.resources
+F:\C#\Santa\Santa\obj\Debug\Santa.exe
+F:\C#\Santa\Santa\obj\Debug\Santa.pdb
+F:\C#\Santa\Santa\bin\Debug\Santa.exe
+F:\C#\Santa\Santa\bin\Debug\Santa.pdb
+F:\C#\Santa\Santa\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\Santa\Santa\obj\Debug\Santa.Form1.resources
+F:\C#\Santa\Santa\obj\Debug\Santa.Properties.Resources.resources
+F:\C#\Santa\Santa\obj\Debug\Santa.csproj.GenerateResource.Cache

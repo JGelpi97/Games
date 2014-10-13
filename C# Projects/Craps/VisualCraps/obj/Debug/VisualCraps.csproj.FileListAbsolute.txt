@@ -1,0 +1,8 @@
+E:\C#\VisualCraps\VisualCraps\bin\Debug\VisualCraps.exe
+E:\C#\VisualCraps\VisualCraps\bin\Debug\VisualCraps.pdb
+E:\C#\VisualCraps\VisualCraps\obj\Debug\ResolveAssemblyReference.cache
+E:\C#\VisualCraps\VisualCraps\obj\Debug\VisualCraps.Form1.resources
+E:\C#\VisualCraps\VisualCraps\obj\Debug\VisualCraps.Properties.Resources.resources
+E:\C#\VisualCraps\VisualCraps\obj\Debug\VisualCraps.csproj.GenerateResource.Cache
+E:\C#\VisualCraps\VisualCraps\obj\Debug\VisualCraps.exe
+E:\C#\VisualCraps\VisualCraps\obj\Debug\VisualCraps.pdb

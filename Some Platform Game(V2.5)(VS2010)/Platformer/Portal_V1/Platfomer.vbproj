@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16698656-0B57-49D6-957F-8880874207D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Platfomer.My.MyApplication</StartupObject>
+    <RootNamespace>Platfomer</RootNamespace>
+    <AssemblyName>Platformer</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Platformer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Platformer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key1%2817by36%29.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door1%2840by50%29.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorOpen1%2840by50%29.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JumpLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JumpRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spike2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FallRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FallLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitWallLeft2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitWallRight2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RunLeftFixed.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RunRightFixed.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gravity.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bomb.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullet.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TurretHoriz.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BulletVert.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExplosionLvl5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TurretHoriz1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TurretVert.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExplosionLvl5Lose.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExplosionLvl3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sentry.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gravity1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-14.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-15.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-17.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-18.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-19.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-20.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-21.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-22.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splodeLvl3-23.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portalUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portalDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood15.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood14.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glasses.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StillGlasses.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BulletVert2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BulletHoriz2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Still0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FallLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FallRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitWallLeft2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitWallRight2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JumpLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\JumpRight.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

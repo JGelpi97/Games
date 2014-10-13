@@ -1,0 +1,8 @@
+E:\C#\Santa\Santa\bin\Release\Santa.exe
+E:\C#\Santa\Santa\bin\Release\Santa.pdb
+E:\C#\Santa\Santa\obj\Release\ResolveAssemblyReference.cache
+E:\C#\Santa\Santa\obj\Release\Santa.Form1.resources
+E:\C#\Santa\Santa\obj\Release\Santa.Properties.Resources.resources
+E:\C#\Santa\Santa\obj\Release\Santa.csproj.GenerateResource.Cache
+E:\C#\Santa\Santa\obj\Release\Santa.exe
+E:\C#\Santa\Santa\obj\Release\Santa.pdb

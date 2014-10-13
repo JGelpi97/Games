@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="CannonBall_V1.exe" version="1.0.0.0" publicKeyToken="c2d471258f500630" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CannonBall_V1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CannonBall_V1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CannonBall_V1.exe" size="110592">
+      <assemblyIdentity name="CannonBall_V1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>kU1+HLfMu3fAEBZ/1yRkMfUUNCs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=PHSD\97753" issuerKeyHash="aa9fbcee2fdf0100c609c763149301be241f0f2a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Xb0ZAwaTJCHe+93kPMKs+EFhKO4=</DigestValue></Reference></SignedInfo><SignatureValue>VM0Gl5+PsdXzLSO3TYCze4BlVKuwlTmrWTfihbjvdJjv8iZk4i8g43rD3N0bGpqhKggXQKsPkw/Cy+8CQBNi5ZA8jUBVxjKABYP+9mJykiadI1/5DNauR+xHf8Blefm9spqxvMgBa08wItSb5+/03zU7ocQXqWyXuDyknbko5ss=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1O7PsTCmmAk2uD62n6mv+oppby0njcEo5RiRO55mAgUlflx/gZpC5qjbz9MKgDWAaPlQiK1Buo61vdtG3B1a0hh/2Gs8K3OHi2UfryBFj0NoaqixcpK/htqTf8ixYp+Li6ZjSKE10Vmm8cn/qCSchh4eP5RXaSf8/N9rHjjqqq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ee286141f8acc23ce4ddfbde212493060319bd5d" Description="" Url=""><as:assemblyIdentity name="CannonBall_V1.exe" version="1.0.0.0" publicKeyToken="c2d471258f500630" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PHSD\97753</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>oEvt6krq3ERGJmiWKWjJhx8+77E=</DigestValue></Reference></SignedInfo><SignatureValue>hRFunE4wTtXbu8yN4L3x3CZqlGuSv78PKhhsbtcAwpPbbyqNAiZW0vTL+Wg+Gb3uQ9xLE2Krpa9k8r4vYc75VdOwVlmgwNe3LutFTsfu/Cf3VXCp1rhycCZSHD/FkC4vZy0dPRaANWIdE1kv1pPHj4WWTpTv2bxBoHJL/erBmgI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1O7PsTCmmAk2uD62n6mv+oppby0njcEo5RiRO55mAgUlflx/gZpC5qjbz9MKgDWAaPlQiK1Buo61vdtG3B1a0hh/2Gs8K3OHi2UfryBFj0NoaqixcpK/htqTf8ixYp+Li6ZjSKE10Vmm8cn/qCSchh4eP5RXaSf8/N9rHjjqqq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASagAwIBAgIQUVCx5K7KhrBFRTmNQ3r0ejAJBgUrDgMCHQUAMB8xHTAbBgNVBAMeFABQAEgAUwBEAFwAOQA3ADcANQAzMB4XDTEwMTAyODE2MzQxOFoXDTExMTAyODIyMzQxOFowHzEdMBsGA1UEAx4UAFAASABTAEQAXAA5ADcANwA1ADMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANTuz7EwppgJNrg+tp+pr/qKaW8tJ43BKOUYkTueZgIFJX5cf4GaQuao28/TCoA1gGj5UIitQbqOtb3bRtwdWtIYf9hrPCtzh4tlH68gRY9DaGqosXKSv4bak3/IsWKfi4umY0ihNdFZpvHJ/6gknIYeHj+UV2kn/Pzfax446qqtAgMBAAEwCQYFKw4DAh0FAAOBgQA2c17CyTAvC/v9ltUmNc5omzGBiwGM4mOr1RSGoG1Cc9Ka7DLJ6+GHu3NoAMi7gSRdUiRwAeIxbvdVlk62VGtgRt1G6AJP+bP2W/FtLD83k9KdAs8NcWQh1VsZDBa3XYpenpHu9ZG5iBkufkaLhjGyR/TZ+ukbjrF5apzn/2hhkQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

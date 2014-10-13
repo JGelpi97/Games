@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{628743AA-380A-47B1-B2C9-5E3BB3FFF1D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zombie_Shooter_Tower_Defense</RootNamespace>
+    <AssemblyName>Zombie Shooter Tower Defense</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bullet.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Flare.cs" />
+    <Compile Include="Flashlight.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HUD.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Pickup_Object.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Rocket.cs" />
+    <Compile Include="Turret.cs" />
+    <Compile Include="Wave_System.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullet.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyFeet2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyFeet1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guySMG.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyPistol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyShotgun.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blob.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crosshair.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guySniper.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyMinigun.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyMinigunFiring2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyMinigunFiring1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guySMGFiring2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guySMGFiring1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyPistolFiring1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyShotgunFiring1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guySniperFiring1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speedTurret.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeArrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basicTurretBase.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basicTurretGun.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basicTurret.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speedTurretBase.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speedTurretGun.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basicTurretBase2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basicTurretGun2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basicTurretGun3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basicTurretBase3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speedTurretBase2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speedTurretBase3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speedTurretGun2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speedTurretGun3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guyFlare.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iceTurret.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iceTurretBase.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iceTurretGun.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iceTurretBase2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iceTurretBase3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iceTurretGun2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iceTurretGun3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iceBullet.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rocket.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocketTurretGun.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocketTurretBase.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocketTurret.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocketTurretGun3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocketTurretBase2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocketTurretBase3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocketTurretGun2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flare.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healthHeart.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heartTookDamage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turretInfoPanelBack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turretPanelBack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerInfoBack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trogdorWalk3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trogdorWalk1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trogdorWalk2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trogdorAttack1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trogdorAttack2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bombWalk3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bombWalk1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bombWalk2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bombAttack2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bombAttack1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bombAttack3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bombAttack4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugWalk3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugWalk1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugWalk2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugAttack2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugAttack1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unicornWalk1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unicornWalk2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unicornWalk3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavesPanelBack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundGrey.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantWalk3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantWalk1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantWalk2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantAttack2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantAttack1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SellButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpgradeButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healthPack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flareBox.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\minigun_fire.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\pistol_fire2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\shotgun.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\smg.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\sniper.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repairButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background%28png%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
